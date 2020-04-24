@@ -2,27 +2,7 @@
 
 using namespace std;
 
-class yyh {
-private:
-    char status;
-
-public:
-    void academicMode() {
-        status = 'A';
-    }
-
-    void lemonMode() {
-        status = 'U';
-    }
-
-    char getMode() {
-        return status;
-    }
-};
-
 int main() {
-    yyh *yyh1;
-    yyh1->lemonMode();
     int a, b, c, d;
     cout << "Please input the absolute value of a negative 4-bit binary number (from -7 to 0): " << endl;
     cin >> d >> c >> b >> a;
