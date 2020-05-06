@@ -3,4 +3,4 @@ project(CS2310_Lab)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(CS2310_Lab Lab12_Op1.cpp)
+add_executable(CS2310_Lab Lab13_Op2.cpp)
